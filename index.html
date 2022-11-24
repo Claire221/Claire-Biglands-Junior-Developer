@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Claire Biglands</title>
+     <!-- Materialized Styles - Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Font Awesome CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+     <!-- Google font links -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+     <!-- My Personal CSS link -->
+    <link rel="stylesheet" href="/styles/style.css" type="text/css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Claire Biglands</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class=" sidenav-trigger fa-solid fa-bars"></i></a>
+          <ul class="right hide-on-med-and-down nav-list">
+            <li class="nav-links"><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#about-section">About</a></li>
+            <li><a class="nav-link" href="#projects-section">Project</a></li>
+            <li><a class="nav-link" href="#skills-section">Skills</a></li>
+            <li<a class="nav-link" href="#contact-section">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+              
+
+    <header id="home" class="profile-header align-items">
+        <div class="header-items align-items">
+            <h1 class="heading-title white-text">Hi Im Claire</h1>
+            <h2 class="heading-title-sub white-text">Im A Junior Developer Who Loves All Things Tech</h2>
+            <div class="header-links flex">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <button class="button" href="#projects-section">See my work</button>
+            
+        </div>
+    </header>
+
+    <section id="about-section" class="about-section align-items about-test">
+        <div class="section-container ">
+            <h3 class="section-header center-align  white-text">About</h3>
+            <p class="about-section-paragraph center-align">
+                Hi, Im Claire a Junior Web Developer based in North Wales.
+                <br>
+                <br>
+                Im currently studying a diploma in Full stack Software Development from the Code Institute and am Proficient in HTML, CSS, JavaScript.
+                <br>
+                <br>
+                In April 2020 I started an IT Apprenticeship at Rydal Penrhos school, after completing the course I was then offered a full time position as an IT 
+                Technician at the beginning of 2022. 
+                While working as an IT Technician I was also learning to code in my spare time and started learning HTML and CSS and shortly after starting JavaScript. 
+                While studying I realized that although I enjoyed working as an IT Technician coding was where my true passion was so in April I made the decision to 
+                leave my job and study full time on a Coding Bootcamp. I enrolled in Code Institutes full stack program and am hoping to graduate from the course in November.
+                <br> 
+                <br>
+                I am eager to gain entry into the tech industry into an exciting development team where I can grow and contribute.
+                </p>
+            <div class="button-div">
+                <a href="/CV/ClaireBiglands-JuniorWebDeveloper.docx" download="ClaireBiglands_CV" target="_blank" class="button about-btn flex">Download CV<i class="fa-solid fa-file-arrow-down download-arrow"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects-section" class="projects-section">
+        <h3 class="section-header center-align white-text">Projects</h3>
+        <div class="row projects-row flex">
+            <div class="col projects-container">
+                <div class="image-div flex">
+                    <img src="images/across-the-ages/02.jpg" alt="">
+                </div>
+                <div class="content-div">
+                    <h2 class="teal-text">Across The Ages</h2>
+                    <p class="white-text project-description">Accross The Ages is an e-commerse website that specilizes in all things 90's and 2000's
+                    </p>
+                    <p class="white-text project-technologies">Technologies Used: <span class="teal-text">Materialize CSS, Python, Django, Heroku, Stripe</span></p>
+                    <div class="project-links-div flex">
+                        <a href="https://github.com/Claire221/Across-The-Ages" target=”_blank” class="teal-text project-link">Live Link <i class="fa-regular fa-paper-plane"></i></a>
+                        <a href="https://github.com/Claire221/Facility-443" target=”_blank” class="teal-text project-link">Github Repo <i class="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/Claire221/Facility-443" target=”_blank” class="teal-text project-link">Video Demo <i class="fa-solid fa-video"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col projects-container">
+                <div class="image-div flex">
+                    <img src="images/bookmarked/01.jpg" alt="">
+                </div>
+                <div class="content-div">
+                    <h2 class="teal-text">Bookmarked</h2>
+                    <p class="white-text project-description">Bookmarked is a digital library for users to upload and organize their books.
+                        It was created as a way to keep track of what books I have as I often end up giving books away or lending them to friends
+                        or family to read resulting in me forgetting what books I have owned or read. I wanted to be able to create bookshelves so 
+                        I can organize them, and add comments so if I no longer had the book I can look back and see what I thought of it. Finally I 
+                        wanted to have a feature that would generate a book for me, because I buy books at a faster rate than I can read them it can 
+                        become overwhelming trying to chose which one to read next. I wanted to be able to generate a book from some parameters such 
+                        as from a specific author or bookshelf or just generate a book based on my whole library.
+                        
+                    </p>
+                    <p class="white-text project-technologies">Technologies Used: <span class="teal-text">Flask, Bootstrap, Heroku, MongoDB, PostgreSQL</span></p>
+                    <div class="project-links-div flex">
+                        <a href="https://github.com/Claire221/Across-The-Ages" target=”_blank” class="teal-text project-link">Live Link <i class="fa-regular fa-paper-plane"></i></a>
+                        <a href="https://github.com/Claire221/Facility-443" target=”_blank” class="teal-text project-link">Github Repo <i class="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/Claire221/Facility-443" target=”_blank” class="teal-text project-link">Video Demo <i class="fa-solid fa-video"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row projects-row flex">
+            <div class="col s12 m6 lg-6  projects-container">
+                <div class="image-div flex">
+                    <img src="images/facility443/01.jpg" alt="">
+                </div>
+                <div class="content-div">
+                    <h2 class="teal-text">Facility 443</h2>
+                    <p class="white-text project-description">Facility 443 is a fully immersive choose your own adventure horror game. You wake up in a room you don’t recognize 
+                        daze and confused and its your choices that will determine if you get out alive or not. While you explore the environment you can pick up items 
+                        that will help you determine what’s going on and help you break out of the facility. Do you focus on getting answers and figuring out what’s going
+                         on or do you get out as fast as possible? With danger behind every corner, footsteps chasing you and a menacing voice counting down to an event that 
+                         you’re not sure you want to stick around to see one wrong decision could end it all.
+                    </p>
+                    <p class="white-text project-technologies">Technologies Used: <span class="teal-text">HTML, CSS, JavaScript</span></p>
+                    <div class="project-links-div flex">
+                        <a href="https://claire221.github.io/Facility-443/" target=”_blank” class="teal-text project-link">Live Link <i class="fa-regular fa-paper-plane"></i></a>
+                        <a href="https://github.com/Claire221/Facility-443" target=”_blank” class="teal-text project-link">Github Repo <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 lg-6  projects-container">
+                <div class="image-div flex">
+                    <img src="images/facility443/01.jpg" alt="">
+                </div>
+                <div class="content-div">
+                    <h2 class="teal-text">Lyrical Genius</h2>
+                    <p class="white-text project-description">Facility 443 is a fully immersive choose your own adventure horror game. You wake up in a room you don’t recognize 
+                        daze and confused and its your choices that will determine if you get out alive or not. While you explore the environment you can pick up items 
+                        that will help you determine what’s going on and help you break out of the facility. Do you focus on getting answers and figuring out what’s going
+                         on or do you get out as fast as possible? With danger behind every corner, footsteps chasing you and a menacing voice counting down to an event that 
+                         you’re not sure you want to stick around to see one wrong decision could end it all.
+                    </p>
+                    <p class="white-text project-technologies">Technologies Used: <span class="teal-text">HTML, CSS, JavaScript</span></p>
+                    <div class="project-links-div flex">
+                        <a href="https://claire221.github.io/Facility-443/" target=”_blank” class="teal-text project-link">Live Link <i class="fa-regular fa-paper-plane"></i></a>
+                        <a href="https://github.com/Claire221/Facility-443" target=”_blank” class="teal-text project-link">Github Repo <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <section id="skills-section" class="align-items white-text">
+        <h3 class="section-header">Skills</h3>
+        <p>Explaining skills..</p>
+        <div class="skills-container">
+            <div class="row skills-row">
+                <div class="skill flex">
+                    <p class="skill-title">CSS</p>
+                    <i class="fa-brands fa-css3-alt skill-icon"></i>
+                </div>
+                <div class="skill flex">
+                    <p class="skill-title">JavaScript</p>
+                    <i class="fa-brands fa-js skill-icon"></i>
+                </div>
+                <div class="skill flex">
+                    <p class="skill-title">Python</p>
+                    <i class="fa-brands fa-python skill-icon"></i>
+                </div>
+                <div class="skill flex">
+                    <p class="skill-title">MongoDB</p>
+                    <i class="fa-solid fa-database skill-icon"></i>
+                </div>
+                <div class="skill flex">
+                    <p class="skill-title">PostgreSQL</p>
+                    <i class="fa-solid fa-database skill-icon"></i>
+                </div>
+            </div>
+            <div class="row skills-row">
+                <div class="skill flex">
+                    <p class="skill-title">Flask</p>
+                    <i class="fa-solid fa-pepper-hot skill-icon"></i>
+                </div>
+                <div class="skill flex">
+                    <p class="skill-title">Heroku</p>
+                    <i class="fa-solid fa-h skill-icon"></i>
+                </div>
+                <div class="skill flex">
+                    <p class="skill-title">Github</p>
+                    <i class="fa-brands fa-github skill-icon"></i>
+                </div>
+                <div class="skill flex">
+                    <p class="skill-title">Bootstrap</p>
+                    <i class="fa-brands fa-bootstrap skill-icon"></i>
+                </div>
+                <div class="skill flex">
+                    <p class="skill-title">Materialize</p>
+                    <i class="fa-solid fa-m skill-icon"></i>
+                </div>
+                <div class="skill flex">
+                    <p class="skill-title">Stripe</p>
+                    <i class="fa-regular fa-credit-card skill-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section">
+        <h4 class="center-align white-text contact-title">If you have any questions feel free to get in contact!</h4>
+        <div class="row">
+            <form class="col s12 m8 offset-m2" method="POST" action="">
+                <div class="card-panel contact-form">
+                    <!-- Book Information -->
+                    <div class="row">
+                        <div class="input-field col s6 m12">
+                            <input id="name" name="name" type="text" class="name" required>
+                            <label for="name">Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6 m12">
+                            <input id="email" name="email" type="email" class="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6 m12">
+                            <input id="number" name="number" type="number" class="number">
+                            <label for="number">Phone Number (Optional) </label>
+                        </div>
+                    </div>
+                    <textarea name="message" id="" cols="40" rows="20" placeholder="Enter message.."
+                    class="textarea contact-form-message"></textarea>
+                    <div class="row">
+                        <div class="input-field col s12 center-align">
+                            <button type="submit" class="btn">Send!</button>
+                        </div>
+                    </div>
+                </div>
+            <form>
+        </div>
+
+    </section>
+    <!-- Materialized Script - Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
